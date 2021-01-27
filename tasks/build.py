@@ -8,7 +8,7 @@ def backend(c):
 
 @task
 def npmdeps(c):
-    c.run('npm install')
+    c.run('npm install webapp/')
 
 
 @task
