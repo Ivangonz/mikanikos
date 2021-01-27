@@ -7,6 +7,11 @@ def backend(c):
 
 
 @task
+def npmdeps(c):
+    c.run('npm install')
+
+
+@task
 def webapp(c):
     c.run('cd webapp && npm run serve')
 
