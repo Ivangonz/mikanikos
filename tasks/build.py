@@ -11,7 +11,7 @@ def npmdeps(c):
     c.run('cd webapp && npm install')
 
 
-@task(pre=npmdeps)
+@task
 def webapp(c):
     c.run('cd webapp && npm run serve')
 
