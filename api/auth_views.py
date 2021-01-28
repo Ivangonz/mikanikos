@@ -10,7 +10,7 @@ auth = HTTPBasicAuth()
 
 @auth_views.route('/test')
 def get_test():
-    return {'greeting': 'HELLO!!!!!'}
+    return {'greeting': 'Hello.'}
 
 
 @auth_views.route('/api/admin/user', methods=['POST'])
