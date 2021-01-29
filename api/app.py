@@ -1,11 +1,10 @@
 import os
-from typing import Dict
 
 from flask import Flask
 from flask_cors import CORS
 
-from api.auth_views import auth_views
-from api.extensions import db, User, Role
+from api.views.auth_views import auth_views
+from api.extensions import db
 from api.utils import create_test_user, create_test_admin
 
 
