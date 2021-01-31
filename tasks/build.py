@@ -1,3 +1,5 @@
+import os
+
 from invoke import task
 
 
@@ -8,10 +10,13 @@ def backend(c):
 
 @task
 def npmdeps(c):
-    c.run('cd webapp && npm install')
+    if os.path.isdir("webapp/node_modules"):
+        c.run('cd webapp && npm install')
+    else:
+        pass
 
 
-@task
+@task(pre=(npmdeps,))
 def webapp(c):
     c.run('cd webapp && npm run serve')
 
