@@ -5,7 +5,7 @@ from flask_cors import CORS
 
 from api.views.auth_views import auth_views
 from api.extensions import db
-from api.utils import create_test_user, create_test_admin
+from api.utils import create_test_admin
 
 
 def create_app():
@@ -22,8 +22,6 @@ def create_app():
 
     db.init_app(flask_app)
     with flask_app.app_context():
-        db.create_all()
-        create_test_user()
         create_test_admin()
 
     return flask_app

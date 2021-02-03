@@ -1,3 +1,4 @@
+import base64
 import time
 from dataclasses import dataclass
 
@@ -19,7 +20,10 @@ class User(db.Model):
     email: str
     firstname: str
     lastname: str
-    roles: str
+    role: str
+    avatar: bytes
+    biography: str
+    email: str
 
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(32), index=True, nullable=False, unique=True)
@@ -31,9 +35,10 @@ class User(db.Model):
     lastname = db.Column(
         db.String(100, collation='NOCASE'), nullable=False, server_default=''
     )
-
     # Define the relationship to Role via UserRoles
-    roles = db.relationship('Role', secondary='user_roles')
+    role = db.Column(db.String(32, collation='NOCASE'), nullable=False, server_default='')
+    avatar = db.Column(db.BLOB(), nullable=True)
+    biography = db.Column(db.String(8000, collation='NOCASE'), nullable=False, server_default='')
 
     def hash_password(self, password):
         self.password_hash = generate_password_hash(password)
@@ -53,25 +58,6 @@ class User(db.Model):
     def verify_auth_token(token, app: Flask):
         try:
             data = jwt.decode(token, app.config['SECRET_KEY'], algorithms=['HS256'])
-        except:
-            return
+        except jwt.ExpiredSignatureError:
+            return "Invalid Token"
         return User.query.get(data['id'])
-
-
-# Define the Role data-model
-@dataclass
-class Role(db.Model):
-    __tablename__ = 'roles'
-    id: int
-    name: str
-
-    id = db.Column(db.Integer(), primary_key=True)
-    name = db.Column(db.String(50), unique=True)
-
-
-# Define the UserRoles association table
-class UserRoles(db.Model):
-    __tablename__ = 'user_roles'
-    id = db.Column(db.Integer(), primary_key=True)
-    user_id = db.Column(db.Integer(), db.ForeignKey('users.id', ondelete='CASCADE'))
-    role_id = db.Column(db.Integer(), db.ForeignKey('roles.id', ondelete='CASCADE'))
