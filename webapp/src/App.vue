@@ -16,7 +16,7 @@ export default {
         }
     },
     created: async function(){
-        const gResponse = await fetch("http://localhost:5000/greeting");
+        const gResponse = await fetch("http://localhost:5000/api/greeting");
         const gObject = await gResponse.json();
         this.flaskGreeting = gObject.greeting;
     }

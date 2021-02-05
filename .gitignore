@@ -115,7 +115,7 @@ ENV/
 # Application-specific ignores
 # ----------------------------
 
-app.sqlite
+api/db.sqlite
 api/local_settings.py
 .vscode/
 node_modules/
