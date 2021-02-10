@@ -28,12 +28,6 @@
 
 
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/Ivangonz/tutornator">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
   <h3 align="center">The Tutornator</h3>
 
@@ -182,9 +176,9 @@ Project Link: [https://github.com/Ivangonz/tutornator](https://github.com/Ivango
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [Conner Martin](https://github.com/ConnerMM)
+* [Conner Wood](https://github.com/connorwood2)
+* [Alex Mygrant](https://github.com/alexandermweber)
 
 
 
@@ -202,4 +196,3 @@ Project Link: [https://github.com/Ivangonz/tutornator](https://github.com/Ivango
 [issues-url]: https://github.com/Ivangonz/tutornator/issues
 [license-shield]: https://img.shields.io/github/license/Ivangonz/tutornator.svg?style=for-the-badge
 [license-url]: https://github.com/Ivangonz/tutornator/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
