@@ -181,16 +181,3 @@ Project Link: [https://github.com/Ivangonz/tutornator](https://github.com/Ivango
 * [Conner Martin](https://github.com/ConnerMM)
 * [Conner Wood](https://github.com/connorwood2)
 * [Alex Mygrant](https://github.com/alexandermweber)
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-https://img.shields.io/github/contributors/Ivangonz/tutornator
-https://img.shields.io/github/forks/Ivangonz/tutornator
-https://img.shields.io/github/stars/Ivangonz/tutornator
-https://img.shields.io/github/issues/Ivangonz/tutornator
-https://img.shields.io/github/last-commit/Ivangonz/tutornator
-https://img.shields.io/github/languages/code-size/Ivangonz/tutornator?color=green
