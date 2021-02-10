@@ -21,12 +21,12 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 <p align="center">
-[![Contributors][contributors-shield]]
-[![Forks][forks-shield]]
-[![Stargazers][stars-shield]]
-[![Issues][issues-shield]]
-[![MIT License][license-shield]]
-[![Version][size-shield]]
+    <img alt="Contributors" src="https://img.shields.io/github/contributors/Ivangonz/tutornator"/>
+    <img alt="Forks" src="https://img.shields.io/github/forks/Ivangonz/tutornator"/>
+    <img alt="Stars" src="https://img.shields.io/github/stars/Ivangonz/tutornator"/>
+    <img alt="Issues" src="https://img.shields.io/github/issues/Ivangonz/tutornator"/>
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/Ivangonz/tutornator"/>
+    <img alt="Code Size" src="https://img.shields.io/github/languages/code-size/Ivangonz/tutornator?color=green"/>
 </p>
 
 
@@ -188,9 +188,9 @@ Project Link: [https://github.com/Ivangonz/tutornator](https://github.com/Ivango
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Ivangonz/tutornator
-[forks-shield]: https://img.shields.io/github/forks/Ivangonz/tutornator
-[stars-shield]: https://img.shields.io/github/stars/Ivangonz/tutornator
-[issues-shield]: https://img.shields.io/github/issues/Ivangonz/tutornator
-[license-shield]: https://img.shields.io/github/last-commit/Ivangonz/tutornator
-[size-shield]: https://img.shields.io/github/languages/code-size/Ivangonz/tutornator?color=green
+https://img.shields.io/github/contributors/Ivangonz/tutornator
+https://img.shields.io/github/forks/Ivangonz/tutornator
+https://img.shields.io/github/stars/Ivangonz/tutornator
+https://img.shields.io/github/issues/Ivangonz/tutornator
+https://img.shields.io/github/last-commit/Ivangonz/tutornator
+https://img.shields.io/github/languages/code-size/Ivangonz/tutornator?color=green
