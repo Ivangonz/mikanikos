@@ -25,7 +25,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -193,15 +192,14 @@ Project Link: [https://github.com/Ivangonz/tutornator](https://github.com/Ivango
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Ivangonz/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/Ivangonz/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Ivangonz/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/Ivangonz/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/Ivangonz/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/Ivangonz/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Ivangonz/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/Ivangonz/repo/issues
-[license-shield]: https://img.shields.io/github/license/Ivangonz/repo.svg?style=for-the-badge
-[license-url]: https://github.com/Ivangonz/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Ivangonz/tutornator.svg?style=for-the-badge
+[contributors-url]: https://github.com/Ivangonz/tutornator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Ivangonz/tutornator.svg?style=for-the-badge
+[forks-url]: https://github.com/Ivangonz/tutornator/network/members
+[stars-shield]: https://img.shields.io/github/stars/Ivangonz/tutornator.svg?style=for-the-badge
+[stars-url]: https://github.com/Ivangonz/tutornator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Ivangonz/tutornator.svg?style=for-the-badge
+[issues-url]: https://github.com/Ivangonz/tutornator/issues
+[license-shield]: https://img.shields.io/github/license/Ivangonz/tutornator.svg?style=for-the-badge
+[license-url]: https://github.com/Ivangonz/tutornator/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/Ivangonz
