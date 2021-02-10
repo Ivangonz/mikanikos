@@ -25,6 +25,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
+[![Application][application-shield]][application-url]
 
 
 
@@ -196,3 +197,5 @@ Project Link: [https://github.com/Ivangonz/tutornator](https://github.com/Ivango
 [issues-url]: https://github.com/Ivangonz/tutornator/issues
 [license-shield]: https://img.shields.io/github/license/Ivangonz/tutornator.svg?style=for-the-badge
 [license-url]: https://github.com/Ivangonz/tutornator/blob/master/LICENSE.txt
+[application-shield]: https://img.shields.io/github/license/Ivangonz/tutornator.svg?style=for-the-badge
+[application-url]: https://placeholder
