@@ -20,11 +20,11 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![Contributors][contributors-shield]]
+[![Forks][forks-shield]]
+[![Stargazers][stars-shield]]
+[![Issues][issues-shield]]
+[![MIT License][license-shield]]
 [![Version][size-shield]]
 
 
@@ -187,14 +187,9 @@ Project Link: [https://github.com/Ivangonz/tutornator](https://github.com/Ivango
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Ivangonz/tutornator.svg?style=for-the-badge
-[contributors-url]: https://github.com/Ivangonz/tutornator/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Ivangonz/tutornator.svg?style=for-the-badge
-[forks-url]: https://github.com/Ivangonz/tutornator/network/members
-[stars-shield]: https://img.shields.io/github/stars/Ivangonz/tutornator.svg?style=for-the-badge
-[stars-url]: https://github.com/Ivangonz/tutornator/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Ivangonz/tutornator.svg?style=for-the-badge
-[issues-url]: https://github.com/Ivangonz/tutornator/issues
-[license-shield]: https://img.shields.io/github/license/Ivangonz/tutornator.svg?style=for-the-badge
-[license-url]: https://github.com/Ivangonz/tutornator/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/Ivangonz/tutornator
+[forks-shield]: https://img.shields.io/github/forks/Ivangonz/tutornator
+[stars-shield]: https://img.shields.io/github/stars/Ivangonz/tutornator
+[issues-shield]: https://img.shields.io/github/issues/Ivangonz/tutornator
+[license-shield]: https://img.shields.io/github/last-commit/Ivangonz/tutornator
 [size-shield]: https://img.shields.io/github/languages/code-size/Ivangonz/tutornator?color=green
