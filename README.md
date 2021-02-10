@@ -20,13 +20,14 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+<p align="center">
 [![Contributors][contributors-shield]]
 [![Forks][forks-shield]]
 [![Stargazers][stars-shield]]
 [![Issues][issues-shield]]
 [![MIT License][license-shield]]
 [![Version][size-shield]]
-
+</p>
 
 
 
