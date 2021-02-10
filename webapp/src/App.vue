@@ -4,6 +4,8 @@
     <p>{{greeting}}</p>
     <!-- server side greeting (api) -->
     <p>{{flaskGreeting}}</p>
+    <Login></Login>
+    <Calendar></Calendar>
   </div>
 </template>
 
@@ -14,7 +16,7 @@ import Login from "./components/Login.vue"
 export default {
   name: "App",
   components: {
-    Login
+    Login,
   },
     data: function(){
         return {
