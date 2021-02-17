@@ -1,9 +1,7 @@
 <template>
   <div id="app">
-    <!-- client side greeting -->
-    <p>{{greeting}}</p>
-    <!-- server side greeting (api) -->
-    <p>{{flaskGreeting}}</p>
+    <p>First Name: {{firstName}}</p>
+    <p>Last Name: {{lastName}}</p>
     <Login></Login>
     <Calendar></Calendar>
   </div>
@@ -13,6 +11,7 @@
 
 <script>
 import Login from "./components/Login.vue"
+
 export default {
   name: "App",
   components: {
@@ -20,14 +19,15 @@ export default {
   },
     data: function(){
         return {
-            greeting: 'Hello, Vue!',
-            flaskGreeting: ''
+            firstName: '',
+            lastName: ''
         }
     },
     created: async function(){
-        const gResponse = await fetch("http://localhost:5000/api/greeting");
+        const gResponse = await fetch("http://localhost:5000/api/user/profile");
         const gObject = await gResponse.json();
-        this.flaskGreeting = gObject.greeting;
+        this.firstName = gObject.firstname;
+        this.lastName = gObject.lastname;
     }
 }
 </script>

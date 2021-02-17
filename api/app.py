@@ -4,6 +4,7 @@ from flask import Flask
 from flask_cors import CORS
 
 from api.views.auth_views import auth_views
+from api.views.db_views import db_views
 from api.extensions import db
 from api.utils import create_test_admin
 
@@ -13,6 +14,7 @@ def create_app():
     CORS(flask_app)
 
     flask_app.register_blueprint(auth_views)
+    flask_app.register_blueprint(db_views)
 
     # TODO: Need to change some of these to environment variables.
     flask_app.config['SECRET_KEY'] = 'the quick brown fox jumps over the lazy dog'
