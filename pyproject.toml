@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "mikanikos"
+name = "tutornator"
 version = "0.1.0"
 description = "Tutoring Schedule Manager written in Python-Flask/VueJS"
 authors = ["Ivan Gonzalez Ibarra <ivan.gonzalez@liveviewtech.com>"]
