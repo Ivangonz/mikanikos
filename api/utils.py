@@ -8,7 +8,7 @@ from api.extensions import User, db
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)
 
-img_path = os.path.abspath('default-avatar')
+img_path = os.path.abspath('../default-avatar.png')
 
 def create_connection(db_file):
     """ create a database connection to the SQLite database
