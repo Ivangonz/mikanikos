@@ -1,5 +1,6 @@
 import base64
 import logging
+import os
 import sqlite3
 
 from api.extensions import User, db
@@ -7,6 +8,7 @@ from api.extensions import User, db
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)
 
+img_path = os.path.abspath('default-avatar')
 
 def create_connection(db_file):
     """ create a database connection to the SQLite database
@@ -37,7 +39,7 @@ def create_connection(db_file):
 
 def create_test_admin():
     if not User.query.filter(User.email == 'lfernandez@weber.edu').first():
-        with open('/home/navi/Personal/repos/mikanikos/default-avatar.png', 'rb') as avt:
+        with open(img_path, 'rb') as avt:
             avatar_img = base64.b64encode(avt.read())
         user = User(
             email='lfernandez@weber.edu',
