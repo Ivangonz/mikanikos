@@ -1,15 +1,10 @@
 import logging
 from typing import Dict, Any
 
-from api.extensions import User, db
 from flask import Flask, abort, request, jsonify, url_for, render_template, make_response, Blueprint, g
-from flask_httpauth import HTTPBasicAuth
-import copy
-import json
 import simplejson as sjson
 import sqlite3 as sql
 
-from api.utils import create_connection
 
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)

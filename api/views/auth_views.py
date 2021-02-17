@@ -1,8 +1,6 @@
 from api.extensions import User, db
 from flask import Flask, abort, request, jsonify, url_for, render_template, make_response, Blueprint, g
 from flask_httpauth import HTTPBasicAuth
-import copy
-import json
 
 auth_views = Blueprint('auth_views', __name__)
 auth = HTTPBasicAuth()
